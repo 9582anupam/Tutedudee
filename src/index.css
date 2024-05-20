@@ -2,7 +2,6 @@
 
 /* Desktop view starts here */
 
-
 /* Global styles */
 body {
     font-family: "Poppins", sans-serif;
@@ -27,7 +26,7 @@ body {
     gap: 12px;
 }
 
-.header-logo{
+.header-logo {
     margin: 0;
     font-size: 16px;
     font-weight: 500;
@@ -40,7 +39,7 @@ body {
     margin: 0;
 }
 
-.header-signup p{
+.header-signup p {
     color: white;
     font-size: 16px;
     font-weight: 500;
@@ -53,12 +52,9 @@ body {
     padding: 12px 24px 12px 24px;
     /* gap: 6px; */
     border-radius: 14px;
-    background: linear-gradient(180deg, #B73BBE 0%, #992E9D 93.51%);
-    box-shadow: 0px 8px 24px -10px #992E9D80;
+    background: linear-gradient(180deg, #b73bbe 0%, #992e9d 93.51%);
+    box-shadow: 0px 8px 24px -10px #992e9d80;
     cursor: pointer;
-}
-.header-signup:hover {
-    scale: 1.5;
 }
 
 .header-login {
@@ -66,10 +62,9 @@ body {
     font-weight: 500;
     line-height: 24px;
     text-align: right;
-    color:#992E9D;
+    color: #992e9d;
     cursor: pointer;
 }
-
 
 /* Header Base */
 
@@ -89,7 +84,7 @@ body {
     font-weight: 500;
     line-height: 24px;
     text-align: left;
-    color: #FFFFFF;
+    color: #ffffff;
 }
 
 .underlight {
@@ -97,7 +92,7 @@ body {
     width: 100%;
     height: 4px;
     border-radius: 10px 10px 0px 0px;
-    background: #FFA50B;
+    background: #ffa50b;
 }
 
 #header-hover:hover .underlight {
@@ -109,7 +104,7 @@ body {
     font-weight: 400;
     line-height: 24px;
     text-align: left;
-    color:#CFD0D2;
+    color: #cfd0d2;
     margin: 10px 0;
 }
 
@@ -136,7 +131,7 @@ body {
     font-weight: 400;
     line-height: 30px;
     text-align: left;
-    color:#434347;
+    color: #434347;
 }
 
 .iit-alumuni-highlight {
@@ -144,8 +139,6 @@ body {
     font-weight: 600;
     line-height: 30px;
     text-align: left;
-
-
 }
 
 .hat-iit-alumuni {
@@ -243,7 +236,6 @@ body {
     display: flex;
     gap: 15px;
     align-items: center;
-
 }
 
 .enroll-now {
@@ -260,8 +252,6 @@ body {
     gap: 6px;
     font-size: 18px;
     font-weight: 600;
-
-
 }
 .enroll-now p {
     margin: 0;
@@ -269,7 +259,7 @@ body {
     font-weight: 600;
     line-height: 27px;
     text-align: left;
-    color:#FCF5FE;
+    color: #fcf5fe;
 }
 
 .know-more p {
@@ -277,9 +267,8 @@ body {
     font-weight: 600;
     line-height: 27px;
     text-align: left;
-    color: #992E9D;
+    color: #992e9d;
     margin: 0;
-    
 }
 
 .know-more {
@@ -290,10 +279,7 @@ body {
     border: none;
     display: flex;
     cursor: pointer;
-
 }
-
-
 
 /* Stats */
 
@@ -480,16 +466,9 @@ body {
     background-color: #e5e5e8;
 }
 
-
-
-
-
-
-
-
 /* refund offer */
 .refund-offer-container {
-    padding: 0 40px ;
+    padding: 0 40px;
     background-color: white;
     padding-top: 10rem;
 }
@@ -503,21 +482,19 @@ body {
     text-align: center;
     margin: auto;
     width: 70%;
-
 }
 
 .refund-highlight {
-    background: linear-gradient(180deg, #B73BBE 0%, #992E9D 93.51%);
+    background: linear-gradient(180deg, #b73bbe 0%, #992e9d 93.51%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
 }
 
-
 .offer-box {
     margin: 20px auto;
-    background: linear-gradient(180deg, #9849FF 0%, #841EE3 93.51%);
-    box-shadow: 0px 16px 36px -10px #9849FF40;
+    background: linear-gradient(180deg, #9849ff 0%, #841ee3 93.51%);
+    box-shadow: 0px 16px 36px -10px #9849ff40;
     color: white;
     padding: 32px 20px 32px 20px;
     border-radius: 32px;
@@ -531,17 +508,15 @@ body {
     font-weight: 700;
     line-height: 42px;
     text-align: center;
-    
 }
 
 .seat-left {
-    color: #FFFFFF;
+    color: #ffffff;
     opacity: 70%;
     font-weight: 500;
     font-size: 18px;
     line-height: 27px;
     text-align: left;
-    
 }
 
 .offer-header {
@@ -550,7 +525,7 @@ body {
     flex-direction: column;
 }
 
-.offer-end p{
+.offer-end p {
     font-size: 20px;
     font-weight: 500;
     line-height: 30px;
@@ -577,7 +552,7 @@ body {
     line-height: 54px;
     letter-spacing: -0.03em;
     text-align: center;
-    color: #450D45;
+    color: #450d45;
 }
 
 .steps-container {
@@ -618,13 +593,12 @@ body {
 .steps-line {
     width: 90%;
     height: 4px;
-    background:#F5F5F6;
+    background: #f5f5f6;
     position: absolute;
     z-index: 1;
     left: 50%;
     transform: translateX(-50%);
     /* padding: 0px 702px 0px 0px; */
-
 }
 
 .step-overlay-text {
@@ -632,7 +606,7 @@ body {
     z-index: 5;
     left: 50%;
     transform: translate(-50%, -35%);
-    color: #FCF5FE;
+    color: #fcf5fe;
 }
 
 .step-overlay-container {
@@ -660,8 +634,8 @@ body {
     gap: 16px;
     border-radius: 20px;
     border: 1px;
-    background: linear-gradient(180deg, #FFFFFF 0%, #FCF5FE 100%);
-    border: 1px solid #F9EBFC;
+    background: linear-gradient(180deg, #ffffff 0%, #fcf5fe 100%);
+    border: 1px solid #f9ebfc;
     display: flex;
     justify-content: center;
 }
@@ -672,10 +646,9 @@ body {
     line-height: 30px;
     letter-spacing: -0.03em;
     text-align: left;
-    color: #7F2781;
+    color: #7f2781;
     display: flex;
     justify-content: center;
-
 }
 
 .step-body span {
@@ -683,14 +656,14 @@ body {
     font-weight: 600;
     line-height: 21px;
     text-align: left;
-    color: #1B1B1D;
+    color: #1b1b1d;
 }
 
 .step-card-det {
     padding: 16px;
     gap: 8px;
     border-radius: 14px;
-    border: 1px solid #E5E5E8;
+    border: 1px solid #e5e5e8;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -702,7 +675,7 @@ body {
     line-height: 60px;
     letter-spacing: -0.03em;
     text-align: left;
-    background: linear-gradient(180deg, #FFA50B 0%, #E27900 93.51%);
+    background: linear-gradient(180deg, #ffa50b 0%, #e27900 93.51%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -714,17 +687,14 @@ body {
     line-height: 21px;
     letter-spacing: -0.03em;
     text-align: left;
-    color: #4C4D52;
+    color: #4c4d52;
     margin: 0;
-
 }
-
-
 
 /* Hiring */
 
 .hiring {
-    background: #FFFCEA;
+    background: #fffcea;
     padding: 3rem 0;
     margin-top: 10rem;
     overflow-x: hidden;
@@ -747,7 +717,7 @@ body {
     line-height: 72px;
     letter-spacing: -0.03em;
     text-align: center;
-    background: linear-gradient(92.04deg, #B73BBE 49.96%, #EBCB2E 99.23%);
+    background: linear-gradient(92.04deg, #b73bbe 49.96%, #ebcb2e 99.23%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -758,7 +728,6 @@ body {
     gap: 22px;
     justify-content: space-evenly;
     padding-top: 3rem;
-
 }
 
 .hiring-logo {
@@ -767,7 +736,7 @@ body {
     padding: 10px;
     gap: 10px;
     border-radius: 24px;
-    background: #FFFFFF;
+    background: #ffffff;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -782,14 +751,6 @@ body {
     color: #374957;
 }
 
-
-
-
-
-
-
-
-
 /* certificates */
 
 .certificates {
@@ -798,7 +759,6 @@ body {
     width: 85%;
     margin: auto;
     padding-top: 10rem;
-
 }
 
 .cert-heading {
@@ -810,7 +770,7 @@ body {
 }
 
 .cert-highlight {
-    color: #992E9D;
+    color: #992e9d;
 }
 
 .cert-container {
@@ -820,24 +780,23 @@ body {
 }
 
 .cert-left {
-    background: #FCF5FE;
+    background: #fcf5fe;
     border: 1px solid#F9EBFC;
     width: 40%;
     padding: 36px;
     border-radius: 32px;
-    border: 1px ;
+    border: 1px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 20px
-
+    gap: 20px;
 }
 .cert-right {
     width: 40%;
     padding: 28px;
     border-radius: 24px;
-    border: 1px ;
-    background: #FFFCEA;
+    border: 1px;
+    background: #fffcea;
     border: 1px solid#FFF4C5;
     display: flex;
     flex-direction: column;
@@ -848,13 +807,13 @@ body {
     font-weight: 600;
     line-height: 42px;
     text-align: center;
-    color: #450D45;
+    color: #450d45;
     margin: 0;
 }
 
 .cert-img {
-    border-radius: 10.95px ;
-    border: 0.73px ;
+    border-radius: 10.95px;
+    border: 0.73px;
 }
 
 .cert-star-text {
@@ -863,16 +822,14 @@ body {
     gap: 6px;
     border-radius: 100px;
     border: 1px;
-    border: 1px solid #F4D6F8;
-    background:#F9EBFC;
+    border: 1px solid #f4d6f8;
+    background: #f9ebfc;
     margin: 0;
-
 }
 
 .cert-star-text-container {
     display: flex;
     gap: 14px;
-
 }
 
 .cert-star-text-container h2 {
@@ -881,7 +838,7 @@ body {
     line-height: 24px;
     letter-spacing: -0.03em;
     text-align: left;
-    color:#992E9D;
+    color: #992e9d;
     margin: 0;
 }
 
@@ -889,7 +846,6 @@ body {
     width: 24px;
     height: 24px;
     object-fit: cover;
-
 }
 
 .cert-right p {
@@ -916,20 +872,18 @@ body {
     mix-blend-mode: multiply;
 }
 
-
 /* Internship node */
 
-.intern-node-container p{
+.intern-node-container p {
     font-size: 36px;
     font-weight: 700;
     line-height: 54px;
     text-align: center;
-    background: linear-gradient(180deg, #B872D0 0%, #372FAA 100%);
+    background: linear-gradient(180deg, #b872d0 0%, #372faa 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
     padding-top: 10rem;
-
 }
 
 .intern-node-container {
@@ -939,37 +893,33 @@ body {
     padding-bottom: 10rem;
     width: 80%;
     margin: auto;
-
 }
 
 .intern-node-container img {
     scale: 110%;
 }
 
-.intern-node-button h1{
+.intern-node-button h1 {
     font-size: 16px;
     font-weight: 600;
     line-height: 19.76px;
     text-align: center;
-    color: #FFFFFF;
+    color: #ffffff;
     margin: 0;
-    
 }
 
 .intern-node-button {
     margin-top: 2rem;
     padding: 15px 28px 15px 28px;
     border-radius: 10px;
-    box-shadow: 0px 2px 4px 0px #0000001A;
+    box-shadow: 0px 2px 4px 0px #0000001a;
     box-shadow: 0px -1px 4px 0px #00000026;
     box-shadow: -1px 0px 4px 0px #00000026;
     box-shadow: 1px 0px 4px 0px #00000026;
-    background: linear-gradient(176.18deg, #800080 -2.53%, #7E267E 27.29%);
+    background: linear-gradient(176.18deg, #800080 -2.53%, #7e267e 27.29%);
     cursor: pointer;
     /* margin-top: 20rem; */
-
 }
-
 
 .intern-node-img {
     position: absolute;
@@ -979,16 +929,17 @@ body {
     padding-top: 1rem;
 }
 
-
-.intern-node-text1 h1 , .intern-node-text2 h1 {
+.intern-node-text1 h1,
+.intern-node-text2 h1 {
     font-size: 16px;
     font-weight: 600;
     line-height: 24px;
     text-align: left;
-    color: #150E42;
+    color: #150e42;
     width: 275px;
 }
-.intern-node-text1 , .intern-node-text2{
+.intern-node-text1,
+.intern-node-text2 {
     display: flex;
 }
 
@@ -1020,29 +971,9 @@ body {
 
 /* Desktop view ends here */
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* Media Queries */
 
-
 /* Mobile view starts here */
-
-
-
-
 
 /* Header */
 @media (max-width: 500px) {
@@ -1057,10 +988,10 @@ body {
     }
 }
 
-
 /* Header Base */
 @media (max-width: 500px) {
-    .header-base h1, .header-base p {
+    .header-base h1,
+    .header-base p {
         font-size: 12px;
         font-weight: 500;
         line-height: 18px;
@@ -1100,8 +1031,6 @@ body {
     }
 }
 
-
-
 /* hero */
 @media (max-width: 1200px) {
     .stats-container {
@@ -1110,7 +1039,6 @@ body {
     .features {
         flex-wrap: wrap;
     }
-
 }
 @media (max-width: 1000px) {
     .hero {
@@ -1125,7 +1053,6 @@ body {
         display: inline-block;
         margin-top: 3rem;
     }
-
 }
 
 @media (max-width: 500px) {
@@ -1164,7 +1091,7 @@ body {
     .enroll-now {
         padding: 20px 32px 20px 32px;
         gap: 12px;
-        border-radius: 16px ;
+        border-radius: 16px;
         width: 90%;
     }
     .enroll-now p {
@@ -1172,7 +1099,6 @@ body {
         font-weight: 600;
         line-height: 24px;
         text-align: left;
-
     }
     .enroll-image {
         width: 18px;
@@ -1217,7 +1143,7 @@ body {
         font-weight: 500;
         line-height: 21px;
         letter-spacing: -0.02em;
-        text-align: center;        
+        text-align: center;
     }
     .course-list-headings h1 {
         font-size: 24px;
@@ -1225,7 +1151,6 @@ body {
         line-height: 30px;
         letter-spacing: -0.03em;
         text-align: center;
-        
     }
     .course h2 {
         font-size: 20px;
@@ -1256,21 +1181,17 @@ body {
         padding: 16px 20px 16px 20px;
         gap: 8px;
         border-radius: 12px;
-        border: 1px ;
+        border: 1px;
         width: 80%;
         margin: auto;
-
     }
-
 }
-
 
 /* Hiring */
 
-
-
 @media (max-width: 500px) {
-    .hiring p, .hiring span {
+    .hiring p,
+    .hiring span {
         font-size: 28px;
         font-weight: 600;
         line-height: 35px;
@@ -1283,20 +1204,18 @@ body {
         line-height: 20px;
         letter-spacing: -0.03em;
         text-align: center;
-
     }
     .hiring-logo {
         width: 110px;
         height: 44px;
         padding: 10px;
         border-radius: 18px;
-
     }
 }
 
 /* refund offer */
 @media (max-width: 1200px) {
-    .steps-container{
+    .steps-container {
         flex-direction: column;
     }
     .step-icon-container {
@@ -1330,7 +1249,6 @@ body {
         gap: 16px;
         border-radius: 18px;
         border: 1px;
-
     }
     .refund-offer-container {
         padding-top: 5rem;
@@ -1345,17 +1263,11 @@ body {
         letter-spacing: -0.03em;
         text-align: left;
     }
-
 }
-
-
-
-
-
 
 /* certiificates */
 @media (max-width: 1200px) {
-    .cert-container{
+    .cert-container {
         flex-direction: column;
         width: 85%;
     }
@@ -1368,7 +1280,6 @@ body {
     .cert-right {
         width: 100%;
     }
-    
 }
 
 @media (max-width: 500px) {
@@ -1422,17 +1333,11 @@ body {
 }
 
 @media (max-width: 580px) {
-    .cert-img, .cert-right img {
+    .cert-img,
+    .cert-right img {
         width: 100%;
     }
 }
-
-
-
-
-
-
-
 
 /* Internship */
 
@@ -1440,7 +1345,8 @@ body {
     .intern-node-img {
         display: none;
     }
-    .intern-node-text1, .intern-node-text2 {
+    .intern-node-text1,
+    .intern-node-text2 {
         flex-direction: column;
     }
     .intern-node-container h1 {
@@ -1456,7 +1362,11 @@ body {
     .intern-text2 {
         padding-top: 0;
     }
-    .intern-text1, .intern-text2, .intern-text3, .intern-text4, .intern-text5 {
+    .intern-text1,
+    .intern-text2,
+    .intern-text3,
+    .intern-text4,
+    .intern-text5 {
         margin-bottom: 0.5rem;
     }
     .intern-node-button {
@@ -1465,10 +1375,4 @@ body {
     .intern-node-container p {
         padding-top: 5rem;
     }
-
-}
-
-@media (max-width: 1200px) {
-
-    
 }
