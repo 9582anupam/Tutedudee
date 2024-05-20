@@ -1,5 +1,5 @@
 import React from "react";
-import eye from "./images/eye.svg";
+import eye from "../images/eye.svg";
 
 const courses = [
     {

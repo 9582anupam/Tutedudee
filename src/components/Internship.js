@@ -1,5 +1,5 @@
-import intern_node from './images/intern_node.png';
-import intern_node_mobile from './images/intern_node_mobile.png';
+import intern_node from '../images/intern_node.png';
+import intern_node_mobile from '../images/intern_node_mobile.png';
 
 const Internship = () => {
     return (

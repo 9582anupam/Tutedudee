@@ -1,6 +1,6 @@
-import cert from './images/cert.png'
-import star from './images/purp_star.svg'
-import intern from './images/intern.png'
+import cert from '../images/cert.png'
+import star from '../images/purp_star.svg'
+import intern from '../images/intern.png'
 
 const Certificates = () => {
 

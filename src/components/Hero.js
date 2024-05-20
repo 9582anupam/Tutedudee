@@ -1,7 +1,7 @@
-import hat from './images/hat.svg';
-import star from './images/award_star.svg';
-import enroll from './images/enroll.svg';
-import question from './images/question.svg';
+import hat from '../images/hat.svg';
+import star from '../images/award_star.svg';
+import enroll from '../images/enroll.svg';
+import question from '../images/question.svg';
 
 const Hero = () => {
 

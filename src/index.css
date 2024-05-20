@@ -317,7 +317,7 @@ body {
 }
 
 .course-icon {
-    background-image: url("./components/images/course.svg");
+    background-image: url("../public/images/course.svg");
     width: 62px;
     height: 62px;
     background-size: contain;
@@ -325,7 +325,7 @@ body {
 }
 
 .learners-icon {
-    background-image: url("./components/images/learners.svg");
+    background-image: url("../public/images/learners.svg");
     width: 62px;
     height: 62px;
     background-size: contain;
@@ -333,7 +333,7 @@ body {
 }
 
 .doubts-icon {
-    background-image: url("./components/images/doubts.svg");
+    background-image: url("../public/images/doubts.svg");
     width: 62px;
     height: 62px;
     background-size: contain;
@@ -341,7 +341,7 @@ body {
 }
 
 .projects-icon {
-    background-image: url("./components/images/projects.svg");
+    background-image: url("../public/images/projects.svg");
     width: 62px;
     height: 62px;
     background-size: contain;

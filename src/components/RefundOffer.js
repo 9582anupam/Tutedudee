@@ -1,9 +1,9 @@
-import clock from "./images/clock.svg";
-import scribble from "./images/scribble.svg";
-import progress from "./images/progress.svg";
-import steps from "./images/steps.svg";
-import step_access from "./images/step_access.svg";
-import steps_mobile from "./images/setps_mobile.svg";
+import clock from "../images/clock.svg";
+import scribble from "../images/scribble.svg";
+import progress from "../images/progress.svg";
+import steps from "../images/steps.svg";
+import step_access from "../images/step_access.svg";
+import steps_mobile from "../images/setps_mobile.svg";
 
 const RefundOffer = () => {
     return (
